@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Tech Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">user@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="XIATAO SUN">XIATAO SUN</h1>
+                </div>
+                <h2 class="subtitle">PH.D. STUDENT <span class="accent">|</span> RESEARCHER <span class="accent">|</span> DEVELOPER</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="mailto:xiatao.sun@yale.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Xiatao Sun is a Ph.D. student in Computer Science at Yale University with a strong background in robotics, machine learning, and simulation environments. He has extensive experience in developing simulation environments, conducting research in multi-robot systems, and leading technological development in healthcare platforms. His technical proficiency spans various programming languages, robotics tools, and game engines.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">xiatao@research:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: xiatao.sun@yale.edu</p>
+                                <p>Phone: +1 5183609927</p>
+                                <p>Location: Apt 315, 18 High St., New Haven, CT, US</p>
+                                <p><span class="command">$ cat research_interests.txt</span></p>
+                                <div id="research-interests-container">
+                                    <p>Robotics: Researching spatial representation, active perception, and manipulation using reinforcement learning and imitation learning for dual-arm robotic systems.</p>
+                                </div>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Ph.D.</div>
+                            <div class="item-date">Aug. 2023 - Now</div>
+                        </div>
+                        <div class="item-subtitle">Yale University</div>
+                        <div class="item-field">Computer Science</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Master of Science in Engineering</div>
+                            <div class="item-date">Aug. 2021 - May 2023</div>
+                        </div>
+                        <div class="item-subtitle">University of Pennsylvania</div>
+                        <div class="item-field">Robotics</div>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Bachelor of Science</div>
+                            <div class="item-date">Aug. 2017 - May 2021</div>
+                        </div>
+                        <div class="item-subtitle">Rensselaer Polytechnic Institute</div>
+                        <div class="item-field">Mechanical Engineering</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Ph.D. student</div>
+                            <div class="item-date">Aug. 2023 – Now</div>
+                        </div>
+                        <div class="item-subtitle">APOLLO Lab</div>
+                        <ul class="item-description">
+                            <li>Researching spatial representation, active perception and manipulation using reinforcement learning and imitation learning for dual-arm robotic systems.</li>
+                            <li>Developing physically differentiable and raytracing simulation environments using Isaac Sim, MuJoCo, and Unity.</li>
+                            <li>Advising undergraduate students on projects related to spatial computing, robot learning, and neuromorphic computing.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Isaac Sim</span>
+                            <span class="technique-tag">MuJoCo</span>
+                            <span class="technique-tag">Unity</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Research Assistant</div>
+                            <div class="item-date">May. 2022 – May. 2023</div>
+                        </div>
+                        <div class="item-subtitle">Vijay Kumar Lab</div>
+                        <ul class="item-description">
+                            <li>Researched multi-robot exploration for topological map construction using algebraic topology and machine learning.</li>
+                            <li>Developed simulation environments in Unity for training and benchmark comparison with a frontier-based method.</li>
+                            <li>Worked on learning-based methods for quadrotor agile flight and safe corridor generation.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Unity</span>
+                            <span class="technique-tag">Machine Learning</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Research Assistant</div>
+                            <div class="item-date">Nov. 2021 – May. 2023</div>
+                        </div>
+                        <div class="item-subtitle">xLab</div>
+                        <ul class="item-description">
+                            <li>Developed XR autonomous driving simulation using Unreal Engine 4 and Python based on CARLA and OpenXR framework and conducted a human study using the XR simulator.</li>
+                            <li>Implemented various imitation learning algorithms on the F1TENTH platform for direct learning and bootstrapping reinforcement learning.</li>
+                            <li>Researched on imitation learning with multiple weak experts using a control barrier function.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Unreal Engine 4</span>
+                            <span class="technique-tag">Python</span>
+                            <span class="technique-tag">CARLA</span>
+                            <span class="technique-tag">OpenXR</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Co-Founder, CTO</div>
+                            <div class="item-date">May. 2021 – Jul. 2022</div>
+                        </div>
+                        <div class="item-subtitle">Qingdao Tian Yi Data Tech Co., Ltd.</div>
+                        <ul class="item-description">
+                            <li>Led the technological development of a healthcare platform, designed software architecture, created the roadmap, managed the development team, and assessed employees’ performance.</li>
+                            <li>Developed the demo of the platform from scratch for venture capitals and potential customers using Python, MySQL, HTML, Bootstrap, JavaScript, jQuery, and other relevant back-end and front-end technologies.</li>
+                            <li>Deployed the application on AWS using CentOS as the operating system, uWSGI for multithreading and server interface, and GoDaddy for DNS hosting.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python</span>
+                            <span class="technique-tag">MySQL</span>
+                            <span class="technique-tag">HTML</span>
+                            <span class="technique-tag">Bootstrap</span>
+                            <span class="technique-tag">JavaScript</span>
+                            <span class="technique-tag">jQuery</span>
+                            <span class="technique-tag">AWS</span>
+                            <span class="technique-tag">CentOS</span>
+                            <span class="technique-tag">uWSGI</span>
+                            <span class="technique-tag">GoDaddy</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Undergraduate Student Researcher</div>
+                            <div class="item-date">Jun. 2020 - Dec. 2020</div>
+                        </div>
+                        <div class="item-subtitle">CeMSIM (Center for Modeling, Simulation, & Imaging in Medicine)</div>
+                        <ul class="item-description">
+                            <li>Developed a general-purpose interactable operating room simulator using Unity with High-Definition Rendering Pipeline and XR Framework.</li>
+                            <li>Developed agents using Unity ML-Agents based on PPO (proximal policy optimization) for a push block task.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Unity</span>
+                            <span class="technique-tag">High-Definition Rendering Pipeline</span>
+                            <span class="technique-tag">XR Framework</span>
+                            <span class="technique-tag">Unity ML-Agents</span>
+                            <span class="technique-tag">PPO</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">AR/VR Developer</div>
+                            <div class="item-date">Jan. 2020 - May 2020</div>
+                        </div>
+                        <div class="item-subtitle">School of Engineering at Rensselaer Polytechnic Institute</div>
+                        <ul class="item-description">
+                            <li>Built a VR environment of MILL (Manufacturing Innovation Learning Laboratory) and synchronized it with the actual MILL lab, using Unreal Engine 4, Blueprint and Maya.</li>
+                            <li>Developed continuous locomotion with dynamic collision detection, automatic height adjustment, and auto-alignment between player model and outside collider.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Unreal Engine 4</span>
+                            <span class="technique-tag">Blueprint</span>
+                            <span class="technique-tag">Maya</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Course Development Assistant</div>
+                            <div class="item-date">May 2019 - May 2020</div>
+                        </div>
+                        <div class="item-subtitle">Department of MANE at Rensselaer Polytechnic Institute</div>
+                        <ul class="item-description">
+                            <li>Developed a photorealistic interactable virtual environment as the front end for students in Propulsion Systems course using Unity3D, Blender, C#, and SteamVR.</li>
+                            <li>Derived the curve fit of thermal dynamics model using MATLAB and implemented the curve-fitted model into C# as the back end.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Unity3D</span>
+                            <span class="technique-tag">Blender</span>
+                            <span class="technique-tag">C#</span>
+                            <span class="technique-tag">SteamVR</span>
+                            <span class="technique-tag">MATLAB</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">VR Developer</div>
+                            <div class="item-date">May 2019 - May 2020</div>
+                        </div>
+                        <div class="item-subtitle">Department of Chemical Engineering at Rensselaer Polytechnic Institute</div>
+                        <ul class="item-description">
+                            <li>Developed a high-fidelity interactable virtual reality lab for students’ practice in process control and thermodynamics, using Unity3D and C# for game logic and Blender for 3D modeling.</li>
+                            <li>Transformed existing flat screen simulator into virtual reality, developed VR interaction mechanics and teleportation locomotion system in this project based on SteamVR Plugin in Unity.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Unity3D</span>
+                            <span class="technique-tag">C#</span>
+                            <span class="technique-tag">Blender</span>
+                            <span class="technique-tag">SteamVR Plugin</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Mechanical Engineer Intern</div>
+                            <div class="item-date">Sep. 2019 – Dec. 2019</div>
+                        </div>
+                        <div class="item-subtitle">Liandessen Electrical Institution and Technology Co., Ltd.</div>
+                        <ul class="item-description">
+                            <li>Selected and arranged modes, analyzed the structure of parts to identify undercut, and examined the types of sidestep.</li>
+                            <li>Determined the cooling method and pipe arrangement, clarified the quantity and position of inserts, and utilized CAD to draw and verify the part diagram.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">CAD</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Undergraduate Student Researcher</div>
+                            <div class="item-date">Sep. 2018 – Dec. 2018</div>
+                        </div>
+                        <div class="item-subtitle">Rensselaer Artificial Intelligence and Reasoning Lab</div>
+                        <ul class="item-description">
+                            <li>Researched the logical eastern-western culture differences and assisted in building prototyping NLP translating programs.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">NLP</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Embedded System Developer Intern</div>
+                            <div class="item-date">Jun. 2018 – Jul. 2018</div>
+                        </div>
+                        <div class="item-subtitle">Goertek Electronics</div>
+                        <ul class="item-description">
+                            <li>Tested and debugged the prototype of OPPO O-Free, a truly wireless earbud, using SDK from Snapdragon and GAIA.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Snapdragon</span>
+                            <span class="technique-tag">GAIA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Publications</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="publications-container" id="publications-container">
+                    <div class="publication-item">
+                        <h3 class="publication-title">Dynamic Rank Adjustment in Diffusion Policies for Efficient and Flexible Training</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">arXiv preprint arXiv:2502.03822</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>X. Sun, S. Yang, Y. Chen, F. Fan, Y. Liang, D. Rakita</p>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3 class="publication-title">A Comparative Study on State-Action Spaces for Learning Viewpoint Selection and Manipulation with Diffusion Policy</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">arXiv preprint arXiv:2409.14615</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>X. Sun, F. Fan, Y. Chen, D. Rakita</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">Developing Path Planning with Behavioral Cloning and Proximal Policy Optimization for Path-Tracking and Static Obstacle Nudging</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">arXiv preprint arXiv: 2409.05289</span>
+                            <span class="publication-year">2024</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>M. Zhou, B. Wang, T. Tan, X. Sun</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">MEGA-DAgger: Imitation Learning with Multiple Imperfect Experts</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">IEEE International Conference on Intelligent Transportation Systems</span>
+                            <span class="publication-year">2024</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>X. Sun, S. Yang, M. Zhou, K. Liu, R. Mangharam</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">Deep Learning for Optimization of Trajectories for Quadrotors</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">IEEE Robotics and Automation Letters</span>
+                            <span class="publication-year">2024</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>Y. Wu, X. Sun, I. Spasojevic, V. Kumar</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">A Benchmark Comparison of Imitation Learning-based Control Policies for Autonomous Racing</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">IEEE Intelligent Vehicles Symposium</span>
+                            <span class="publication-year">2023</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>X. Sun, M. Zhou, Z. Zhuang, S. Yang, J. Betz, R. Mangharam</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">Drive Right: Shaping Public’s Trust, Understanding, and Preference Towards Autonomous Vehicles Using a Virtual Reality Driving Simulator</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">IEEE Intelligent Vehicles Symposium</span>
+                            <span class="publication-year">2023</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>Z. Qiao, X. Sun, H. Loeb, R. Mangharam</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">Multi-Agent Exploration of an Unknown Sparse Landmark Complex via Deep Reinforcement Learning</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">arXiv preprint arXiv:2209.11794</span>
+                            <span class="publication-year">2022</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>X. Sun, Y. Wu, S. Bhattacharya, V. Kumar</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">A Fast Singular Boundary Method for the Acoustic Design Sensitivity Analysis of Arbitrary Two-and Three-dimensional Structures</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Mathematics</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>L. Lan, S. Cheng, X. Sun, W. Li, C. Yang, F. Wang</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3 class="publication-title">Iterative Deep Neural Networks Based on Proximal Gradient Descent for Image Restoration</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">PLOS ONE</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>T. Lv, Z. Pan, W. Wei, G. Yang, J. Song, X. Wang, L. Sun, Q. Li, X. Sun</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>Rust</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C#</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-calculator"></i>
+                                <span>MATLAB</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>PyTorch</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>MXNet</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>ML-Agents</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Tensorflow</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Rey</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Spark ML</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>Kubernetes</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-google"></i>
+                                <span>GCP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Honors & Awards</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="awards-container" id="awards-container">
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">Winner of the ITS World Congress 2022 Student Essay and Video Competition</div>
+                            <div class="item-date">2022</div>
+                        </div>
+                        <div class="item-subtitle">ITS World Congress</div>
+                    </div>
+                    
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">Third prize of the Brain Bee 2020 Brain Challenge (China Division College Section)</div>
+                            <div class="item-date">2020</div>
+                        </div>
+                        <div class="item-subtitle">Brain Bee</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:xiatao.sun@yale.edu" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>xiatao.sun@yale.edu</span>
+                        </a>
+                        <a href="#" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/xiataosun</span>
+                        </a>
+                        <a href="#" target="_blank" class="contact-method">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Google Scholar</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Xiatao Sun | Ph.D. Student & Researcher</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:xiatao.sun@yale.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animate terminal cursor
+        setInterval(() => {
+            const cursors = document.querySelectorAll('.terminal-cursor');
+            cursors.forEach(cursor => {
+                cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            });
+        }, 500);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
